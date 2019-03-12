@@ -1,0 +1,296 @@
+body {margin:0; padding:0; font-family:"Arial", Sans-serif}
+
+.prodImg {width:100%; max-width:200px}
+
+a.menuG:link, a.menuG:visited {
+    
+    color: white;
+    padding:5px 15px;
+   
+    text-decoration: none;
+    
+}
+
+a.menuG:hover, a.menuG:active {
+    background-color: red;
+}
+
+
+a.menuL:link, a.menuL:visited {
+    
+    color: #222021;
+    padding:5px 10px;
+   
+    text-decoration: none;
+    
+}
+
+a.menuL:hover, a.menuL:active {
+    background-color: #e8e9ed;
+}
+.reservation {
+
+  height: 38px;
+  width: 38px;
+
+}
+.button{
+  padding-top: 30px;
+  padding-left:10px;
+  border-bottom:1px solid #cccccc
+}
+.product {
+    display: inline-grid;
+    grid-template-columns: 200px auto auto auto 120px 340px;
+    padding: 10px;
+
+}
+
+.product-img {padding:10px;
+    text-align: center;
+    float: left;
+    border-bottom:1px solid #cccccc;
+    
+}
+
+.product-ammount{
+  padding:15px 15px;
+  border-bottom:1px solid #cccccc
+}
+
+.product-value{
+   padding:15px 15px;
+  border-bottom:1px solid #cccccc
+}
+
+.product-description {
+    padding: 15px 0 15px 20px;
+    border-bottom:1px solid #cccccc;
+    font-size:14px
+}
+.quant {border-bottom:1px solid #cccccc; padding:10px 0;}
+.product-book{
+  padding:10px 15px;
+  border-bottom:1px solid #cccccc
+}
+
+
+  @media only screen and (min-width: 1250px) and (max-width: 1549px) {
+
+  .product {display: grid;
+     grid-template-areas:
+     'miniatura description magazyn cena '
+      'miniatura koszyki koszyki koszyki';
+       padding: 10px;}
+       
+       
+  }
+  
+  
+
+
+.product-info {
+    float: left;
+    width: 25%;
+
+}
+.buyForm {
+  padding:30px 15px;
+  border-bottom:1px solid #cccccc
+}
+.navbar {
+  background-color: #222021;  position:fixed; width:100%;  margin-top:0;  z-index:99}
+.navbar2 {
+  max-width:1500px;
+  display: grid;
+      grid-template-areas:
+  'logo find menuLog'
+  'logo find menuH';
+  padding: 5px 10px 0 10px;
+  margin:auto;
+  color: white;
+}
+
+@media all  and (max-width: 1300px) {
+  .product {display: grid;
+     grid-template-areas:
+     'miniatura description description '
+      'miniatura magazyn cena'
+      'miniatura koszyki koszyki ';
+       padding: 10px;}
+       
+       .navbar2 {
+   max-width:1249px;
+  display: grid;
+      grid-template-areas:
+  'logo find menuLog'
+  'menuH menuH menuH';
+  padding: 5px 10px 0 10px;
+  margin:auto;
+  color: white;}
+
+
+.menuLog {clear:both}
+  
+}
+
+#sidebar {margin-top:5px;
+ 
+  flex-direction: column;
+  padding: 16px;
+  font-family: sans-serif;
+  color: #222021;
+  position: relative;
+  display: inline-block;
+}
+.sidebar_link {padding:2px 5px; border-bottom:1px solid #cccccc;  overflow:auto;}
+.navbar_link {
+  padding-right: 5px; float:left
+}
+.site-wrap {
+   width: 270px;
+    height:100%;
+    background-color: #fff;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 90; overflow: scroll
+}
+.site-wrap {
+    /* ...previous styles here... */
+    padding: 0;
+    background-color:#ffffff;
+    left:-270px
+}
+.nav-trigger {display:none}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+.nav-trigger {
+    position: absolute;
+    
+}
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 99; border-radius:0 12px 12px 0;
+}   
+label[for="nav-trigger"] {
+    /* ... previous styles here... */
+    width: 30px;
+    height: 160px;
+    
+    cursor: pointer;
+    background-image: url("images/menuN1.png");
+    
+}
+.nav-trigger:checked + label {
+    left:255px;
+    background-image: url("/images/menuN2.png")
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left:0;
+    border:1px solid #176291
+}
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+
+}
+
+.container {max-width:1500px; margin:auto; 
+  display: grid;
+    grid-template-areas:
+      'menu tresc';
+      
+        grid-gap:12px;
+       padding-top:80px
+}
+.menL {grid-area:menu; width:250px;}
+.tresc {grid-area:tresc}
+.menuL {float:left; width:180px}
+
+.logo {grid-area: logo}
+.find { margin:10px auto; grid-area:find; text-align:center; white-space:nowrap;}
+.menuLog {grid-area: menuLog; text-align:right;}
+.menuH {grid-area: menuH;
+     text-align:center; margin:10px 10px 0 0; border-top:1px solid #999999; border:1px solid #999999; border-radius:5px; padding:5px 0 5px 0}
+
+
+.left { width:300px}
+
+.right{
+  
+  float: right;
+  text-align:right;
+}
+
+.tit {margin: 5px 20px 10px 30px; font: bold 28px Arial}
+.search {padding:8px; border:1px solid #777a7b; border-radius:8px; width:300px; height:26px }
+.subm {background-color:#e2000f;  border:1px solid #777a7b; border-radius:5px; padding:2px 10px; color:#ffffff}
+.sub-menu{
+  display: none;
+  
+  position: absolute;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1; font:14px Arial;
+  margin-left:155px;
+}
+
+.sidebar_link:hover .sub-menu{
+  display: block;  padding:10px; font:14px/30px Arial;
+  background-color:#e8e9ed; cursor:hand
+}
+
+#productName {font:bold 16px/24px Arial}
+.marka {font: 16px/24px Arial; margin:20px 0 10px 10px}
+.submW {background-color:#cccccc;  border:1px solid #777a7b; border-radius:5px; padding:4px 20px; margin:10px}
+.buttonBuy {background-color:#000000;  border:1px solid #777a7b; border-radius:5px; padding:4px 20px; margin:10px; color:#ffffff; font: 15px Arial}
+.buttonR {background:#5c5a5a  url(R.png) no-repeat right ; height:28px; width:115px; border-radius:14px; border:1px solid #e3e3e3; color:#ffffff; text-align:left; padding:0 14px}
+.buttonW {background:#044b8d  url(W.png) no-repeat right ; height:28px; width:105px; border-radius:14px; border:1px solid #e3e3e3; color:#ffffff; text-align:left; padding:0 14px}
+.buttonK {background:#1b1b1b  url(K.png) no-repeat right ; height:28px; width:78px; border-radius:14px; border:1px solid #e3e3e3; color:#ffffff; text-align:left; padding:0 16px;}
+
+
+.button3 {background-color:#ffffff;  border:1px solid #777a7b; border-radius:5px; padding:4px 20px; margin:10px; color:#e2000f; font: 15px Arial}
+
+
+
+
+.nrZam {float:left; width:100px}
+.dataZam {float:left; width:150px}
+.uzyt {float:left; width:400px}
+.listaZam {clear:both; padding:15px; border-top:1px solid #cccccc; margin-top:10px}
+
+
+.form-grid {display: grid;  grid-template-columns: auto auto ;  padding: 10px;  grid-gap: 15px; justify-content: center}
+.design {text-align:left; margin:8px 5px 0 0}
+.typing {padding:12px; border-radius:5px; border:1px solid #cccccc; width:400px}
+
+.but1 {background-color:#000000;  border:1px solid #777a7b; border-radius:5px; color:#ffffff; }
+.but2 {background-color:#e2000f;  border:1px solid #777a7b;   color:#ffffff; padding:8px 20px 8px 20px; font:16px Arial; border-radius:15px}
+.but3 {background-color:#ffffff;  border:1px solid #777a7b; border-radius:5px;  color:#e2000f}
+
+.ruler {clear:both; border-bottom:1px solid #cccccc; padding:10px; overflow:auto}
+.hem {border:1px solid #cccccc; border-radius:3px; padding:5px}
+.lewy {float:left}
+.pr {text-align:right}
+.cent {text-align:center}
+.cb {clear:both; overflow:auto}
+
+.calosc {
+  display: grid;
+        grid-template-columns: auto auto auto ;
+  padding: 5px 10px 5px 30px;
+  margin:0 30px 0 30px;
+  
+  border:1px solid #9aa0a4; border-radius:5px
+}
+.kategorie {padding:5px; }
+.katL {font:14px/20px Arial; color:#777579; text-decoration:none}
+a.katL:hover {text-decoration:underline}

@@ -1,0 +1,55 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2019-01-03 08:25:46 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 83
+ERROR - 2019-01-03 08:25:46 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 08:25:46', NULL)
+ERROR - 2019-01-03 08:29:27 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 83
+ERROR - 2019-01-03 08:29:27 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (32, 10, '2019-01-03 08:29:27', NULL)
+ERROR - 2019-01-03 08:37:32 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 83
+ERROR - 2019-01-03 08:37:32 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 08:37:32', NULL)
+ERROR - 2019-01-03 08:37:45 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 211
+ERROR - 2019-01-03 08:38:00 --> Severity: Notice --> Array to string conversion D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 211
+ERROR - 2019-01-03 08:38:22 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 83
+ERROR - 2019-01-03 08:38:22 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 20, '2019-01-03 08:38:22', NULL)
+ERROR - 2019-01-03 08:40:45 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 83
+ERROR - 2019-01-03 08:40:45 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 08:40:45', NULL)
+ERROR - 2019-01-03 08:41:19 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 83
+ERROR - 2019-01-03 08:41:19 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (31, 50, '2019-01-03 08:41:19', NULL)
+ERROR - 2019-01-03 09:00:33 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 09:00:33 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 09:00:33', NULL)
+ERROR - 2019-01-03 09:00:42 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 09:00:42 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (6666, 106, '2019-01-03 09:00:42', NULL)
+ERROR - 2019-01-03 09:01:02 --> Severity: Notice --> Undefined variable: db2 D:\xampp\htdocs\4hifi2\application\models\Products_model.php 189
+ERROR - 2019-01-03 09:02:10 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 09:02:10 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (6666, 106, '2019-01-03 09:02:10', NULL)
+ERROR - 2019-01-03 09:02:27 --> Severity: Notice --> Undefined variable: db2 D:\xampp\htdocs\4hifi2\application\models\Products_model.php 189
+ERROR - 2019-01-03 09:02:47 --> Severity: Notice --> Undefined variable: db2 D:\xampp\htdocs\4hifi2\application\models\Products_model.php 189
+ERROR - 2019-01-03 09:04:06 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 09:04:06 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 09:04:06', NULL)
+ERROR - 2019-01-03 09:06:25 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi2\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 09:06:25 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 101, '2019-01-03 09:06:25', NULL)
+ERROR - 2019-01-03 10:48:25 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 10:48:25 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 10:48:25', NULL)
+ERROR - 2019-01-03 11:22:11 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 11:22:11 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (0, 10, '2019-01-03 11:22:11', NULL)
+ERROR - 2019-01-03 11:22:47 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (32, 20, '2019-01-03 11:22:47', 2)
+ERROR - 2019-01-03 11:30:27 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 11:30:27 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (321, 94, '2019-01-03 11:30:27', NULL)
+ERROR - 2019-01-03 11:30:29 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 11:30:29 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (321, 94, '2019-01-03 11:30:29', NULL)
+ERROR - 2019-01-03 18:16:53 --> Unable to connect to the database
+ERROR - 2019-01-03 19:16:34 --> Severity: Notice --> Undefined index: TwZ_Wartosc D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 127
+ERROR - 2019-01-03 21:13:34 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 21:13:34 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (2, 10, '2019-01-03 21:13:34', NULL)
+ERROR - 2019-01-03 21:14:56 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 21:14:56 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (32, 10, '2019-01-03 21:14:56', NULL)
+ERROR - 2019-01-03 21:15:01 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\4hifi\application\controllers\Welcome.php 82
+ERROR - 2019-01-03 21:15:01 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Cannot insert the value NULL into column 'id_user', table '4HIFI_USERS.dbo.orders'; column does not allow nulls. INSERT fails. - Invalid query: INSERT INTO "dbo"."orders" ("order_ammount", "id_product", "date", "id_user") VALUES (32, 10, '2019-01-03 21:15:01', NULL)
+ERROR - 2019-01-03 21:28:50 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'name'. - Invalid query: SELECT "name", "date", "id_product", "order_ammount"
+FROM "dbo"."orders"
+ORDER BY "date" DESC
+ERROR - 2019-01-03 21:28:57 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'name'. - Invalid query: SELECT "name", "date", "id_product", "order_ammount"
+FROM "dbo"."orders"
+ORDER BY "date" DESC
+ERROR - 2019-01-03 21:28:59 --> Query error: [Microsoft][ODBC Driver 11 for SQL Server][SQL Server]Invalid column name 'name'. - Invalid query: SELECT "name", "date", "id_product", "order_ammount"
+FROM "dbo"."orders"
+ORDER BY "date" DESC
